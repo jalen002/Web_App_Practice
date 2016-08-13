@@ -1,5 +1,5 @@
 #helloWorld{
-    color: #0000ff;
+    color: #ff0000;
 }
 
 #logan{
@@ -9,9 +9,5 @@
 }
 
 .myClass {
-    background-color: #ff0000;
-}
-
-body{
-    color: #ffff00;
+    background-color: #0000ff;
 }
