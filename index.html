@@ -6,50 +6,42 @@
 
     <script src="js/jquery/jquery-3.1.0.min.js"></script>
     <script src="js/angular-1.5.8/angular.js"></script>
-    <script src="js.angular-1.5.8/angular-route.js"></script>
-    <script src="js.app.js"></script>
+    <script src="js/angular-1.5.8/angular-route.js"></script>
+    <script src="js/app.js"></script>
+    <script src="controllers/homeController.js"></script>
 
     <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/home.css">
 
 </head>
 
-<body ng-app=”nflApp”
-    
+<body ng-app="nflApp">
+
+    <div class="jumbotron" ng-controller="HomeController" id="jumboTitle">
+        <h1>NFL Schedules</h1>
+        <hr class="m-y-2"/>
+        <p>Developer: {{myName}}</p>
+        <input type="text" ng-model="myName"/>
+    </div>
+
     <div class="container">
-        <div class="myClass">
-            <h1>NFL Schedules</h1>
-            <p id=author>Developer: Jalen Halverson</p>
+        <div ng-controller="HomeController">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Team</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="team in teams">
+                        <td>{{team.name}}</td>
+                        <td>{{team.division}}</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 
-    <div class="jalen" id="logan">
-        Dori is cool
-    </div>
-
-    <div class="container">
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="row">#</th>
-                    <th>City/State</th>
-                    <th>Mascot</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Denver</td>
-                    <td>Broncos</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Arizona</td>
-                    <td>Cardinals</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    
 </body>
 </html>

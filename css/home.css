@@ -1,5 +1,5 @@
 #author{
-    color: #ff0000;
+    color: #000000;
     font-weight: bold;
 }
 
@@ -9,6 +9,10 @@
     margin:25 0 0 10;
 }
 
+#jumboTitle{
+    color: #000fff;
+}
+
 .myClass {
-    background-color: #0000ff;
+    background-color: #058BF7;
 }
