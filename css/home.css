@@ -10,9 +10,16 @@
 }
 
 #jumboTitle{
-    color: #000fff;
+    color: darkmagenta;
+    text-align: center;
 }
 
 .myClass {
     background-color: #058BF7;
+}
+
+.selected {
+    background-color: blue;
+    color:white;
+    font-weight:bold;
 }

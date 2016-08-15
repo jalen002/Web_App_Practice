@@ -130,4 +130,9 @@ myApp.controller('HomeController', ['$scope', function($scope) {
             'division': 'NFC West'
         }
     ];
+
+    $scope.selectedRow = null;  // initialize our variable to null
+    $scope.setClickedRow = function(index){  //function that sets the value of selectedRow to current index
+        $scope.selectedRow = index;
+    }
 }]);

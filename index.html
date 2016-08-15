@@ -29,17 +29,18 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th>Year</th>
                         <th>Team</th>
+                        <th>Division</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="team in teams">
+                    <tr ng-repeat="team in teams" ng-class="{'selected':$index == selectedRow}" ng-click="setClickedRow($index)">
                         <td>{{team.name}}</td>
                         <td>{{team.division}}</td>
                     </tr>
                 </tbody>
             </table>
+            <P>SelectedRow: {{selectedRow}}</P>
         </div>
     </div>
 
