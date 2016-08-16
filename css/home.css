@@ -3,12 +3,6 @@
     font-weight: bold;
 }
 
-#logan{
-    color: #000000;
-    font-weight: bold;
-    margin:25 0 0 10;
-}
-
 #jumboTitle{
     color: darkmagenta;
     text-align: center;
@@ -16,10 +10,4 @@
 
 .myClass {
     background-color: #058BF7;
-}
-
-.selected {
-    background-color: blue;
-    color:white;
-    font-weight:bold;
 }

@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,8 @@
     <script src="js/angular-1.5.8/angular-route.js"></script>
     <script src="js/app.js"></script>
     <script src="controllers/homeController.js"></script>
+    <script src="controllers/teamTableController.js"></script>
+    <script src="services/mainService.js"></script>
 
     <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/home.css">
@@ -17,32 +20,22 @@
 
 <body ng-app="nflApp">
 
-    <div class="jumbotron" ng-controller="HomeController" id="jumboTitle">
-        <h1>NFL Schedules</h1>
-        <hr class="m-y-2"/>
-        <p>Developer: {{myName}}</p>
-        <input type="text" ng-model="myName"/>
+    <div class="container" ng-controller="HomeController">
+
+        <div class="jumbotron">
+            <div id="jumboTitle">
+                <h1>NFL Schedules</h1>
+                <hr/>
+                <p>Developer: {{myName}}</p>
+                <input type="text" ng-model="teamFilter" placeholder="Filter Teams" />
+            </div>
+        </div>
+
     </div>
 
-    <div class="container">
-        <div ng-controller="HomeController">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Team</th>
-                        <th>Division</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr ng-repeat="team in teams" ng-class="{'selected':$index == selectedRow}" ng-click="setClickedRow($index)">
-                        <td>{{team.name}}</td>
-                        <td>{{team.division}}</td>
-                    </tr>
-                </tbody>
-            </table>
-            <P>SelectedRow: {{selectedRow}}</P>
-        </div>
-    </div>
+    <!-- MAIN CONTENT AND INJECTED VIEWS -->
+    <div ng-view></div>
 
 </body>
+
 </html>
