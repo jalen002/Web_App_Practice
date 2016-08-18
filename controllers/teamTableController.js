@@ -11,7 +11,8 @@ myApp.controller('TeamTableController', ['$scope', 'mainService', function($scop
 $scope.teams = [
         {
             'name': 'Cincinnati Bengals',
-            'division': 'AFC North'
+            'division': 'AFC North',
+            'imagePath': 'data/images/team_logos/cincinnati-bengals.png'
         },
         {
             'name': 'Cleveland Browns',
@@ -107,7 +108,8 @@ $scope.teams = [
         },
         {
             'name': 'Dallas Cowboys',
-            'division': 'NFC East'
+            'division': 'NFC East',
+            'imagePath': 'data/images/team_logos/dallas-cowboys.png'
         },
         {
             'name': 'New York Giants',
