@@ -1,14 +1,6 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-md-12">
-            <div ng-if="selectedRow">
-                <h1>You Selected: {{selectedRow.name}}</h1>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
         <div class="col-md-7">
 
             <table class="table">
@@ -28,9 +20,20 @@
 
         </div>
         <div class="col-md-5">
-            <div align="center">
-                <h1>{{selectedRow.name}}</h1>
-                <img src={{selectedRow.imagePath}} alt={{selectedRow.name}}>
+            <div class="row">
+                <div class="col-md-12" align="center">
+                    <h1>{{selectedRow.name}}</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" align="center">
+                    <img src={{selectedRow.imagePath}} alt={{selectedRow.name}} style="width:300px;height:300px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" align="center">
+                    <a class="btn btn-primary" href="#/roster">Roster</a>
+                </div>
             </div>
         </div>
     </div>

@@ -172,11 +172,13 @@ $scope.teams = [
     ];
 
     $scope.selectedRow = $scope.teams[0];  // initialize our variable to null
+    mainService.setSelectedTeam($scope.teams[0]);
     $scope.setClickedRow = function(row){  //function that sets the value of selectedRow to current row
         if (row === $scope.selectedRow) {
             $scope.selectedRow = null;
         } else {
             $scope.selectedRow = row;
+            mainService.setSelectedTeam(row);
         }
     }
 }]);

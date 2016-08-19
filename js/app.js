@@ -11,9 +11,9 @@ myApp.config(function($routeProvider) {
         })
 
         // route for the about page
-        .when('/table', {
-            templateUrl : 'views/table.html',
-            controller  : 'TableController'
+        .when('/roster', {
+            templateUrl : 'views/roster.html',
+            controller  : 'RosterController'
         })
 
 });
