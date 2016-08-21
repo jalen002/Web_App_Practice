@@ -1,5 +1,37 @@
 <div class="container">
-    <h1>
-        {{selectedTeam.name}}
-    </h1>
+
+    <div class="row">
+        <div class="col-md-2" align="center">
+            <img src={{selectedTeam.imagePath}} alt={{selectedRow.name}} style="width:115px;height:115px">
+        </div>
+        <div class="col-md-10">
+            <h1>{{selectedTeam.name}}</h1>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Age</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Experience</th>
+                <th>College</th>
+            </tr>
+        </thead>
+        <tbody ng-repeat="player in selectedTeamRoster">
+            <td>{{player.NO}}</td>
+            <td>{{player.NAME}}</td>
+            <td>{{player.POS}}</td>
+            <td>{{player.AGE}}</td>
+            <td>{{player.HT}}</td>
+            <td>{{player.WT}}</td>
+            <td>{{player.EXP}}</td>
+            <td>{{player.COLLEGE}}</td>
+        </tbody>
+    </table>
+
 </div>
