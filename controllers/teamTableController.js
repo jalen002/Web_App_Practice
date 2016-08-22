@@ -181,4 +181,5 @@ $scope.teams = [
             mainService.setSelectedTeam(row);
         }
     }
+
 }]);
