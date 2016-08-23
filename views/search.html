@@ -3,47 +3,48 @@
     <div class="row">
 
         <div class="col-md-4">
-            <md-content md-theme="docs-dark" layout-padding>
+            <md-content md-theme="docs-dark">
                 <md-input-container>
                     <label>Number</label>
-                    <input ng-model="searchNumber">
+                    <input ng-model="searchNumber"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Name</label>
-                    <input ng-model="searchName">
+                    <input ng-model="searchName"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Position</label>
-                    <input ng-model="searchPosition">
+                    <input ng-model="searchPosition"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Age</label>
-                    <input ng-model="searchAge">
+                    <input ng-model="searchAge"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Height</label>
-                    <input ng-model="searchHeight">
+                    <input ng-model="searchHeight"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Weight</label>
-                    <input ng-model="searchWeight">
+                    <input ng-model="searchWeight"/>
                 </md-input-container>
                 <md-input-container>
                     <label>College</label>
-                    <input ng-model="searchCollege">
+                    <input ng-model="searchCollege"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Experience</label>
-                    <input ng-model="searchExperience">
+                    <input ng-model="searchExperience"/>
                 </md-input-container>
+                <md-button class="md-raised md-primary" ng-click="searchClicked()">Search</md-button>
             </md-content>
         </div>
 
         <div class="col-md-8">
-            <h1>{{searchName}}</h1>
             <table class="table">
                 <thead>
                     <tr>
+                        <th>Team</th>
                         <th>Number</th>
                         <th>Name</th>
                         <th>Position</th>
@@ -55,14 +56,17 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <td>{{player.NO}}</td>
-                    <td>{{player.NAME}}</td>
-                    <td>{{player.POS}}</td>
-                    <td>{{player.AGE}}</td>
-                    <td>{{player.HT}}</td>
-                    <td>{{player.WT}}</td>
-                    <td>{{player.EXP}}</td>
-                    <td>{{player.COLLEGE}}</td>
+                    <tr ng-repeat="player in searchResults">
+                        <td>{{player.TEAM}}</td>
+                        <td>{{player.NO}}</td>
+                        <td>{{player.NAME}}</td>
+                        <td>{{player.POS}}</td>
+                        <td>{{player.AGE}}</td>
+                        <td>{{player.HT}}</td>
+                        <td>{{player.WT}}</td>
+                        <td>{{player.EXP}}</td>
+                        <td>{{player.COLLEGE}}</td>
+                    </tr>
                 </tbody>
             </table>
         </div>
