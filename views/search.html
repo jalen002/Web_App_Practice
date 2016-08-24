@@ -6,37 +6,37 @@
             <md-content md-theme="docs-dark">
                 <md-input-container>
                     <label>Number</label>
-                    <input ng-model="searchNumber"/>
+                    <input ng-model="searchCriteria.NO"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Name</label>
-                    <input ng-model="searchName"/>
+                    <input ng-model="searchCriteria.NAME"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Position</label>
-                    <input ng-model="searchPosition"/>
+                    <input ng-model="searchCriteria.POS"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Age</label>
-                    <input ng-model="searchAge"/>
+                    <input ng-model="searchCriteria.AGE"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Height</label>
-                    <input ng-model="searchHeight"/>
+                    <input ng-model="searchCriteria.HT"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Weight</label>
-                    <input ng-model="searchWeight"/>
+                    <input ng-model="searchCriteria.WT"/>
                 </md-input-container>
                 <md-input-container>
                     <label>College</label>
-                    <input ng-model="searchCollege"/>
+                    <input ng-model="searchCriteria.COLLEGE"/>
                 </md-input-container>
                 <md-input-container>
                     <label>Experience</label>
-                    <input ng-model="searchExperience"/>
+                    <input ng-model="searchCriteria.EXP"/>
                 </md-input-container>
-                <md-button class="md-raised md-primary" ng-click="searchClicked()">Search</md-button>
+                <md-button class="md-raised md-primary" ng-click="searchClicked(searchCriteria)">Search</md-button>
             </md-content>
         </div>
 

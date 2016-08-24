@@ -1,34 +1,42 @@
 myApp.controller('SearchController', ['$scope', 'mainService', function($scope, mainService) {
     $scope.nflRoster = mainService.getNFLRoster();
-    $scope.searchName = null;
-    $scope.searchNumber = null;
-    $scope.searchAge = null;
-    $scope.searchPosition = null;
-    $scope.searchHeight = null;
-    $scope.searchWeight = null;
-    $scope.searchCollege = null;
-    $scope.searchExperience = null;
+    $scope.searchCriteria = {   "NO" : null,
+                                "NAME" : null,
+                                "POS" : null,
+                                "AGE" : null,
+                                "HT" : null,
+                                "WT" : null,
+                                "EXP" : null,
+                                "COLLEGE" : null};
 
     $scope.searchResults = [];
 
-    $scope.searchClicked = function(){
-        $scope.nflRoster = mainService.getNFLRoster();
+    $scope.searchClicked = function (searching) {
+        var flag = true;                            //used to flag a player within criteria to add
         $scope.searchResults = [];
-        if($scope.searchName != null){
-            for(var k in $scope.nflRoster){
-                for(x = 0; x < $scope.nflRoster[k].roster.length; x++){
-                    if($scope.nflRoster[k].roster[x].NAME.toUpperCase().includes($scope.searchName.toUpperCase())){
-                        $scope.searchResults.push({ "TEAM" : $scope.nflRoster[k].name,
-                                                    "NO" : $scope.nflRoster[k].roster[x].NO,
-                                                    "NAME" : $scope.nflRoster[k].roster[x].NAME,
-                                                    "POS" : $scope.nflRoster[k].roster[x].POS,
-                                                    "AGE" : $scope.nflRoster[k].roster[x].AGE,
-                                                    "HT" : $scope.nflRoster[k].roster[x].HT,
-                                                    "WT" : $scope.nflRoster[k].roster[x].WT,
-                                                    "EXP" : $scope.nflRoster[k].roster[x].EXP,
-                                                    "COLLEGE" : $scope.nflRoster[k].roster[x].COLLEGE});
+
+        for (var k in $scope.nflRoster) {
+            var currTeam = $scope.nflRoster[k];
+            for (x = 0; x < currTeam.roster.length; x++) {
+                var currPlayer = currTeam.roster[x];
+                for(prop in searching){
+                    if(searching[prop] != null && !currPlayer[prop].toLowerCase().includes(searching[prop].toLowerCase())){
+                        flag = false;
                     }
                 }
+                if (flag) {
+                    $scope.searchResults.push({ 
+                            "TEAM" : currTeam.name,
+                            "NO" : currPlayer.NO,
+                            "NAME" : currPlayer.NAME,
+                            "POS" : currPlayer.POS,
+                            "AGE" : currPlayer.AGE,
+                            "HT" : currPlayer.HT,
+                            "WT" : currPlayer.WT,
+                            "EXP" : currPlayer.EXP,
+                            "COLLEGE" : currPlayer.COLLEGE});
+                }
+                flag = true;
             }
         }
         return $scope.searchResults;
