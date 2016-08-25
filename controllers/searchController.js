@@ -39,6 +39,7 @@ myApp.controller('SearchController', ['$scope', 'mainService', function($scope, 
                 flag = true;
             }
         }
+        $scope.searchCriteria = [];
         return $scope.searchResults;
     }
 
