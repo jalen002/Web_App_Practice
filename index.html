@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NFL Schedules</title>
+    <title>NFL Schedules2</title>
 
     <link rel="stylesheet" href="js/bootstrap-3.3.7-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/angular-material.min.css" class="stylesheet">
@@ -24,36 +24,68 @@
     <script src="controllers/teamTableController.js"></script>
     <script src="controllers/rosterController.js"></script>
     <script src="controllers/searchController.js"></script>
-    <script src="services/mainService.js"></script>   
+    <script src="services/mainService.js"></script>
 
 </head>
 
 <body ng-app="nflApp">
 
-    <div class="container" ng-controller="HomeController">
-        <div class="jumbotron"  id="jumboTitle">
+    <div ng-controller="HomeController">
 
-            <div class="row">
-                <div class="col-md-3">
-                    <img src="data/images/team_logos/nfl_emblem.png" alt="NFL Logo" style="width:200px;height:250px;">
+        <nav class="navbar navbar-inverse">
+            <!--<div class="container">-->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">NFL Application</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/">Home</a></li>
+                    <!--<li><a routerLink="/editor" routerLinkActive="active">Editor</a></li>-->
+                    <li><a href="#/">Rosters</a></li>
+                    <li><a href="#/search">Search</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <form class="navbar-form navbar-right" style="margin-right: 5px;">
+                        <div class="form-group">
+                            <input class="form-control" type="text" ng-model="teamFilter" ng-show="location === '/'" placeholder="Filter Teams" />
+                        </div>
+                        <!--<button type="submit" class="btn btn-success">Filter</button>-->
+                    </form>
                 </div>
-                <div class="col-md-6">
-                    <h1 text-align="center">NFL Schedules</h1>
-                    <hr/>
-                    <p>Developer: {{myName}}</p>
-                    <input type="text" ng-model="teamFilter" placeholder="Filter Teams" />
-                </div>
-                <div class="col-md-3">
-                    <img src="data/images/team_logos/nfl_emblem.png" alt="NFL Logo" style="width:200px;height:250px;">
-                </div>
+            </div>
+            <!--/.nav-collapse -->
+            <!--</div>-->
+        </nav>
+
+        <div class="container">
+            <div class="jumbotron" id="jumboTitle">
+
                 <div class="row">
+                    <div class="col-md-3">
+                        <img src="data/images/team_logos/nfl_emblem.png" alt="NFL Logo" style="width:200px;height:250px;">
+                    </div>
+                    <div class="col-md-6">
+                        <h1 text-align="center">NFL Schedules</h1>
+                        <hr/>
+                        <p>Developer: {{myName}}</p>
+                        <!--<div class="row">
+                            <div class="col-md-6 col-md-offset-3">
+                                <input class="form-control" type="text" ng-model="teamFilter" placeholder="Filter Teams" />
+                            </div>
+                        </div>-->
+                    </div>
+                    <div class="col-md-3">
+                        <img src="data/images/team_logos/nfl_emblem.png" alt="NFL Logo" style="width:200px;height:250px;">
+                    </div>
+                    <!--<div class="row">
                     <div class="col-md-12">
                         <md-button class="md-raised" href="#/search">Player Search</md-button>
                         <md-button class="md-raised" href="#/">Home</md-button>
                     </div>
+                </div>-->
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
 

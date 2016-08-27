@@ -12,3 +12,20 @@
 .myClass {
     background-color: #058BF7;
 }
+
+/* Make Success Toast */
+md-toast.success-toast .md-toast-content {
+  background-color: #5cb85c;
+}
+md-toast.danger-toast .md-toast-content {
+  background-color: #d9534f;
+}
+md-toast.info-toast .md-toast-content {
+  background-color: #5bc0de;
+}
+md-toast.warning-toast .md-toast-content {
+  background-color: #f0ad4e;
+}
+md-toast.primary-toast .md-toast-content {
+  background-color: #337ab7;
+}
