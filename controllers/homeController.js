@@ -39,4 +39,32 @@ myApp.controller('HomeController', ['$scope', 'mainService', '$http', '$location
                 );
         });
 
+        $http.get('data/schedules/nfl_schedules.json').then(
+            function successCallback(response) {
+                mainService.setSchedule(response.data);
+                    $mdToast.show(
+                        $mdToast.simple()
+                            .textContent('Schedules Loaded!')
+                            .position('top right')
+                            .parent(document.querySelectorAll('.navbar'))
+                            .toastClass("success-toast")
+                            .hideDelay(3500)
+                    );
+        }, function errorCallback(response) {
+            $mdToast.show(
+                    $mdToast.simple()
+                        .textContent('ERROR: Schedules Failed to Load!')
+                        .position('top right')
+                        .parent(document.querySelectorAll('.navbar'))
+                        .toastClass("danger-toast")
+                        .hideDelay(4000)
+                );
+        });
+
+        $http.get('data/teams/teams.json').then(
+            function(response){
+                mainService.setTeams(response.data);
+            }
+        );
+
     }]);

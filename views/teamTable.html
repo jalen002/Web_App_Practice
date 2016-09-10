@@ -12,34 +12,54 @@
                 </thead>
                 <tbody>
                     <tr ng-repeat="team in teams | filter:filterValue" ng-class="{'bg-primary':team === selectedRow}" ng-click="setClickedRow(team)">
-                        <td>{{team.name}}</td>
-                        <td>{{team.division}}</td>
+                        <td style="line-height: 25px;">{{team.name}}</td>
+                        <td style="line-height: 25px;">{{team.division}}</td>
                     </tr>
                 </tbody>
             </table>
 
         </div>
-        
+
         <md-card>
             <div layout="row" layout-align="center center">
-                <img ng-src={{selectedRow.imagePath}} 
-                    class="md-card-image" 
-                    alt={{selectedRow.name}} 
-                    layout="row" 
-                    layout-align="center center" 
+                <img ng-src={{selectedRow.imagePath}} class="md-card-image" alt={{selectedRow.name}} layout="row" layout-align="center center"
                     style="width:300px;height:300px">
             </div>
             <md-card-title>
-            <md-card-title-text layout="row" layout-align="center center">
-                <span class="md-headline">{{selectedRow.name}}</span>
-            </md-card-title-text>
+                <md-card-title-text layout="row" layout-align="center center">
+                    <span class="md-headline">{{selectedRow.name}}</span>
+                </md-card-title-text>
             </md-card-title>
             <md-card-content>
-            <div layout="row" layout-align="center center">
-                <md-button class="md-raised md-primary" href="#/roster">Roster</md-button>
-            </div>
+                <div layout="row" layout-align="center center">
+                    <md-button class="md-raised md-primary" href="#/roster">Roster</md-button>
+                </div>
             </md-card-content>
         </md-card>
 
     </div>
+
+    <div class="row">
+        <md-card>
+            <div layout="row" layout-align="center center">
+
+            </div>
+            <md-card-title>
+                <md-card-title-text layout="row" layout-align="center center">
+                    <span class="md-headline">Games This Week</span>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <div ng-repeat="team in schedule">
+                    <p>{{team}}</p>
+                    <div class="row" ng-repeat="game in team.regularSeason">
+                        <div class="col-md-12">
+                            <p>{{game.OPPONENT}}</p>
+                        </div>
+                    </div>
+                </div>     
+            </md-card-content>
+        </md-card>
+    </div>
+
 </div>

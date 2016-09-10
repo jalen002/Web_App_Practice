@@ -3,6 +3,8 @@ myApp.service('mainService', function() {
     var selectedTeam = null;
     var nflTeamsRoster = null;
     var selectedTeamRoster = null;
+    var schedule = null;
+    var teams = null;
 
     return {
         getServiceTeamFilter: function() {
@@ -23,5 +25,17 @@ myApp.service('mainService', function() {
         setNFLRoster: function(nflRosters) {
             nflTeamsRoster = nflRosters;
         },
+        getSchedule: function(){
+            return schedule;
+        },
+        setSchedule: function(nflSchedules){
+            schedule = nflSchedules;
+        },
+        getTeams: function(){
+            return teams;
+        },
+        setTeams: function(nflTeams){
+            teams = nflTeams;
+        }
     }
 });

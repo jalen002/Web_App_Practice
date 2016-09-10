@@ -1,0 +1,3468 @@
+{
+    "Denver Broncos": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "1",
+                "DATE": "Thu, Sep 8",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "6",
+                "DATE": "Thu, Oct 13",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "7",
+                "DATE": "Mon, Oct 24",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "11",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sun, Dec 25",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsOakland"
+            }
+        ]
+    },
+    "Atlanta Falcons": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "3",
+                "DATE": "Thu, Aug 25",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "3",
+                "DATE": "Mon, Sep 26",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "9",
+                "DATE": "Thu, Nov 3",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "11",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsNew Orleans"
+            }
+        ]
+    },
+    "Los Angeles Rams": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "1",
+                "DATE": "Mon, Sep 12",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "8",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "15",
+                "DATE": "Thu, Dec 15",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsArizona"
+            }
+        ]
+    },
+    "San Francisco 49ers": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sun, Aug 14",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "1",
+                "DATE": "Mon, Sep 12",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "5",
+                "DATE": "Thu, Oct 6",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "8",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsSeattle"
+            }
+        ]
+    },
+    "New York Jets": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "2",
+                "DATE": "Fri, Aug 19",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Sep 15",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "6",
+                "DATE": "Mon, Oct 17",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "11",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "13",
+                "DATE": "Mon, Dec 5",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sat, Dec 17",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsBuffalo"
+            }
+        ]
+    },
+    "Washington Redskins": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "2",
+                "DATE": "Fri, Aug 19",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "4",
+                "DATE": "Wed, Aug 31",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "1",
+                "DATE": "Mon, Sep 12",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "9",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "12",
+                "DATE": "Thu, Nov 24",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "15",
+                "DATE": "Mon, Dec 19",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsNew York"
+            }
+        ]
+    },
+    "Cincinnati Bengals": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Aug 28",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 29",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "9",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "10",
+                "DATE": "Mon, Nov 14",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsBaltimore"
+            }
+        ]
+    },
+    "Seattle Seahawks": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "3",
+                "DATE": "Thu, Aug 25",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "5",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "9",
+                "DATE": "Mon, Nov 7",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "15",
+                "DATE": "Thu, Dec 15",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@San Francisco"
+            }
+        ]
+    },
+    "San Diego Chargers": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "2",
+                "DATE": "Fri, Aug 19",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Aug 28",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "6",
+                "DATE": "Thu, Oct 13",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "11",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsKansas City"
+            }
+        ]
+    },
+    "Jacksonville Jaguars": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Aug 28",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "5",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "8",
+                "DATE": "Thu, Oct 27",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Indianapolis"
+            }
+        ]
+    },
+    "New England Patriots": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "3",
+                "DATE": "Thu, Sep 22",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "9",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "14",
+                "DATE": "Mon, Dec 12",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Miami"
+            }
+        ]
+    },
+    "Indianapolis Colts": {
+        "regularSeason": [
+            {
+                "WK": "HOF",
+                "DATE": "Sun, Aug 7",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "10",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "12",
+                "DATE": "Thu, Nov 24",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "13",
+                "DATE": "Mon, Dec 5",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsJacksonville"
+            }
+        ]
+    },
+    "New Orleans Saints": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "3",
+                "DATE": "Mon, Sep 26",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "5",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "11",
+                "DATE": "Thu, Nov 17",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Atlanta"
+            }
+        ]
+    },
+    "Houston Texans": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sun, Aug 14",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Aug 28",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "3",
+                "DATE": "Thu, Sep 22",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "7",
+                "DATE": "Mon, Oct 24",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "9",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "11",
+                "DATE": "Mon, Nov 21",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Tennessee"
+            }
+        ]
+    },
+    "Philadelphia Eagles": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "2",
+                "DATE": "Mon, Sep 19",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "4",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "12",
+                "DATE": "Mon, Nov 28",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "16",
+                "DATE": "Thu, Dec 22",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsDallas"
+            }
+        ]
+    },
+    "Miami Dolphins": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "2",
+                "DATE": "Fri, Aug 19",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "3",
+                "DATE": "Thu, Aug 25",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 29",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "8",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sat, Dec 17",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsNew England"
+            }
+        ]
+    },
+    "Dallas Cowboys": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "2",
+                "DATE": "Fri, Aug 19",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "3",
+                "DATE": "Thu, Aug 25",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "7",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "12",
+                "DATE": "Thu, Nov 24",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "13",
+                "DATE": "Thu, Dec 1",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "16",
+                "DATE": "Mon, Dec 26",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Philadelphia"
+            }
+        ]
+    },
+    "Oakland Raiders": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "10",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "11",
+                "DATE": "Mon, Nov 21",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "14",
+                "DATE": "Thu, Dec 8",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Denver"
+            }
+        ]
+    },
+    "Buffalo Bills": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Sep 15",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "9",
+                "DATE": "Mon, Nov 7",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "10",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@New York"
+            }
+        ]
+    },
+    "Cleveland Browns": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "10",
+                "DATE": "Thu, Nov 10",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "13",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Pittsburgh"
+            }
+        ]
+    },
+    "Baltimore Ravens": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "8",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "10",
+                "DATE": "Thu, Nov 10",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "14",
+                "DATE": "Mon, Dec 12",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sun, Dec 25",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Cincinnati"
+            }
+        ]
+    },
+    "Arizona Cardinals": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "2",
+                "DATE": "Fri, Aug 19",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Aug 28",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "5",
+                "DATE": "Thu, Oct 6",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "6",
+                "DATE": "Mon, Oct 17",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "9",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Los Angeles"
+            }
+        ]
+    },
+    "Kansas City Chiefs": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "5",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "14",
+                "DATE": "Thu, Dec 8",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sun, Dec 25",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@San Diego"
+            }
+        ]
+    },
+    "Minnesota Vikings": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Aug 28",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "4",
+                "DATE": "Mon, Oct 3",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "6",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "8",
+                "DATE": "Mon, Oct 31",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "12",
+                "DATE": "Thu, Nov 24",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "13",
+                "DATE": "Thu, Dec 1",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsChicago"
+            }
+        ]
+    },
+    "Detroit Lions": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsBuffalo"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "10",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "12",
+                "DATE": "Thu, Nov 24",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "16",
+                "DATE": "Mon, Dec 26",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsGreen Bay"
+            }
+        ]
+    },
+    "Tennessee Titans": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Sat, Aug 13",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "vsCarolina"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "8",
+                "DATE": "Thu, Oct 27",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "13",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsHouston"
+            }
+        ]
+    },
+    "Tampa Bay Buccaneers": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "4",
+                "DATE": "Wed, Aug 31",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Arizona"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsLos Angeles"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "5",
+                "DATE": "Mon, Oct 10",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "6",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "9",
+                "DATE": "Thu, Nov 3",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@San Diego"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsCarolina"
+            }
+        ]
+    },
+    "Green Bay Packers": {
+        "regularSeason": [
+            {
+                "WK": "HOF",
+                "DATE": "Sun, Aug 7",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "vsCleveland"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "vsOakland"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "@San Francisco"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Kansas City"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Jacksonville"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "4",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "7",
+                "DATE": "Thu, Oct 20",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsIndianapolis"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "12",
+                "DATE": "Mon, Nov 28",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsHouston"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsSeattle"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Chicago"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Detroit"
+            }
+        ]
+    },
+    "Chicago Bears": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "vsDenver"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "@New England"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Houston"
+            },
+            {
+                "WK": "2",
+                "DATE": "Mon, Sep 19",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsJacksonville"
+            },
+            {
+                "WK": "7",
+                "DATE": "Thu, Oct 20",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "8",
+                "DATE": "Mon, Oct 31",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "9",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "@Tampa Bay"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "vsTennessee"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Detroit"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsGreen Bay"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Minnesota"
+            }
+        ]
+    },
+    "Carolina Panthers": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Thu, Aug 11",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "@Tennessee"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsPittsburgh"
+            },
+            {
+                "WK": "1",
+                "DATE": "Thu, Sep 8",
+                "OPPONENT": "@Denver"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsSan Francisco"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsMinnesota"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "@Atlanta"
+            },
+            {
+                "WK": "5",
+                "DATE": "Mon, Oct 10",
+                "OPPONENT": "vsTampa Bay"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "7",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "8",
+                "DATE": "Sun, Oct 30",
+                "OPPONENT": "vsArizona"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "11",
+                "DATE": "Thu, Nov 17",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Oakland"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Seattle"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsSan Diego"
+            },
+            {
+                "WK": "15",
+                "DATE": "Mon, Dec 19",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sat, Dec 24",
+                "OPPONENT": "vsAtlanta"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Tampa Bay"
+            }
+        ]
+    },
+    "New York Giants": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "vsMiami"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sat, Aug 20",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sat, Aug 27",
+                "OPPONENT": "@New York"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "1",
+                "DATE": "Sun, Sep 11",
+                "OPPONENT": "@Dallas"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsNew Orleans"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "vsWashington"
+            },
+            {
+                "WK": "4",
+                "DATE": "Mon, Oct 3",
+                "OPPONENT": "@Minnesota"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "@Green Bay"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "@Los Angeles"
+            },
+            {
+                "WK": "8",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "10",
+                "DATE": "Mon, Nov 14",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "vsChicago"
+            },
+            {
+                "WK": "12",
+                "DATE": "Sun, Nov 27",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "@Pittsburgh"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "16",
+                "DATE": "Thu, Dec 22",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "@Washington"
+            }
+        ]
+    },
+    "Pittsburgh Steelers": {
+        "regularSeason": [
+            {
+                "WK": "1",
+                "DATE": "Fri, Aug 12",
+                "OPPONENT": "vsDetroit"
+            },
+            {
+                "WK": "2",
+                "DATE": "Thu, Aug 18",
+                "OPPONENT": "vsPhiladelphia"
+            },
+            {
+                "WK": "3",
+                "DATE": "Fri, Aug 26",
+                "OPPONENT": "@New Orleans"
+            },
+            {
+                "WK": "4",
+                "DATE": "Thu, Sep 1",
+                "OPPONENT": "@Carolina"
+            },
+            {
+                "WK": "1",
+                "DATE": "Mon, Sep 12",
+                "OPPONENT": "@Washington"
+            },
+            {
+                "WK": "2",
+                "DATE": "Sun, Sep 18",
+                "OPPONENT": "vsCincinnati"
+            },
+            {
+                "WK": "3",
+                "DATE": "Sun, Sep 25",
+                "OPPONENT": "@Philadelphia"
+            },
+            {
+                "WK": "4",
+                "DATE": "Sun, Oct 2",
+                "OPPONENT": "vsKansas City"
+            },
+            {
+                "WK": "5",
+                "DATE": "Sun, Oct 9",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "6",
+                "DATE": "Sun, Oct 16",
+                "OPPONENT": "@Miami"
+            },
+            {
+                "WK": "7",
+                "DATE": "Sun, Oct 23",
+                "OPPONENT": "vsNew England"
+            },
+            {
+                "WK": "8",
+                "DATE": "BYE WEEK"
+            },
+            {
+                "WK": "9",
+                "DATE": "Sun, Nov 6",
+                "OPPONENT": "@Baltimore"
+            },
+            {
+                "WK": "10",
+                "DATE": "Sun, Nov 13",
+                "OPPONENT": "vsDallas"
+            },
+            {
+                "WK": "11",
+                "DATE": "Sun, Nov 20",
+                "OPPONENT": "@Cleveland"
+            },
+            {
+                "WK": "12",
+                "DATE": "Thu, Nov 24",
+                "OPPONENT": "@Indianapolis"
+            },
+            {
+                "WK": "13",
+                "DATE": "Sun, Dec 4",
+                "OPPONENT": "vsNew York"
+            },
+            {
+                "WK": "14",
+                "DATE": "Sun, Dec 11",
+                "OPPONENT": "@Buffalo"
+            },
+            {
+                "WK": "15",
+                "DATE": "Sun, Dec 18",
+                "OPPONENT": "@Cincinnati"
+            },
+            {
+                "WK": "16",
+                "DATE": "Sun, Dec 25",
+                "OPPONENT": "vsBaltimore"
+            },
+            {
+                "WK": "17",
+                "DATE": "Sun, Jan 1",
+                "OPPONENT": "vsCleveland"
+            }
+        ]
+    }
+}
