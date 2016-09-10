@@ -50,14 +50,27 @@
                 </md-card-title-text>
             </md-card-title>
             <md-card-content>
-                <div ng-repeat="team in schedule">
-                    <p>{{team}}</p>
-                    <div class="row" ng-repeat="game in team.regularSeason">
-                        <div class="col-md-12">
-                            <p>{{game.OPPONENT}}</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Matchup</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody ng-repeat="(key,value) in schedule">
+                        <tr ng-show="$index > 3 && game.WK == 1" ng-repeat="game in value.regularSeason">
+                            <td>{{key}} {{game.OPPONENT}}</td>
+                            <td>{{game.DATE}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!--<div ng-repeat="(key,value) in schedule">
+                    <div class="row" ng-repeat="game in value.regularSeason">
+                        <div class="col-md-12" ng-show="$index > 3 && game.WK == 1">
+                            <p>{{key}} {{game.OPPONENT}} {{game.DATE}}</p>
                         </div>
                     </div>
-                </div>     
+                </div>     -->
             </md-card-content>
         </md-card>
     </div>
