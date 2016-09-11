@@ -22,4 +22,10 @@ myApp.config(function($routeProvider) {
             controller : 'SearchController'
         })
 
+        //route for the selected teams schedule
+        .when('/schedule', {
+            templateUrl : 'views/schedule.html',
+            controller : 'ScheduleController'
+        })
+
 });

@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-2" align="center">
+            <img src={{selectedTeam.imagePath}} alt={{selectedRow.name}} style="width:115px;height:115px"/>
+        </div>
+        <div class="col-md-10">
+            <h1>{{selectedTeam.name}}</h1>
+        </div>
+    </div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Matchup</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+        <tbody>
+                <td><b>PRE-SEASON</b></td>
+            <tr ng-repeat="game in selectedTeamSchedule" ng-show="$index <= 3">
+                <td style="padding: 3px">{{game.OPPONENT}}</td>
+                <td style="padding: 3px">{{game.DATE}}</td>
+            </tr>
+                <td><b>REGULAR SEASON</b></td>
+            <tr ng-repeat="game in selectedTeamSchedule" ng-show="$index > 3">
+                <td style="padding: 3px">{{game.OPPONENT}}</td>
+                <td style="padding: 3px">{{game.DATE}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

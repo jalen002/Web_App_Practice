@@ -20,59 +20,54 @@
 
         </div>
 
-        <md-card>
-            <div layout="row" layout-align="center center">
-                <img ng-src={{selectedRow.imagePath}} class="md-card-image" alt={{selectedRow.name}} layout="row" layout-align="center center"
-                    style="width:300px;height:300px">
-            </div>
-            <md-card-title>
-                <md-card-title-text layout="row" layout-align="center center">
-                    <span class="md-headline">{{selectedRow.name}}</span>
-                </md-card-title-text>
-            </md-card-title>
-            <md-card-content>
-                <div layout="row" layout-align="center center">
-                    <md-button class="md-raised md-primary" href="#/roster">Roster</md-button>
-                </div>
-            </md-card-content>
-        </md-card>
-
-    </div>
-
-    <div class="row">
-        <md-card>
-            <div layout="row" layout-align="center center">
-
-            </div>
-            <md-card-title>
-                <md-card-title-text layout="row" layout-align="center center">
-                    <span class="md-headline">Games This Week</span>
-                </md-card-title-text>
-            </md-card-title>
-            <md-card-content>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Matchup</th>
-                            <th>Date</th>
-                        </tr>
-                    </thead>
-                    <tbody ng-repeat="(key,value) in schedule">
-                        <tr ng-show="$index > 3 && game.WK == 1" ng-repeat="game in value.regularSeason">
-                            <td>{{key}} {{game.OPPONENT}}</td>
-                            <td>{{game.DATE}}</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <!--<div ng-repeat="(key,value) in schedule">
-                    <div class="row" ng-repeat="game in value.regularSeason">
-                        <div class="col-md-12" ng-show="$index > 3 && game.WK == 1">
-                            <p>{{key}} {{game.OPPONENT}} {{game.DATE}}</p>
-                        </div>
+        <div class="col-md-5">
+            <div class="row">
+                <md-card>
+                    <div layout="row" layout-align="center center">
+                        <img ng-src={{selectedRow.imagePath}} class="md-card-image" alt={{selectedRow.name}} layout="row" layout-align="center center"
+                            style="width:300px;height:300px">
                     </div>
-                </div>     -->
-            </md-card-content>
-        </md-card>
+                    <md-card-title>
+                        <md-card-title-text layout="row" layout-align="center center">
+                            <span class="md-headline">{{selectedRow.name}}</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content>
+                        <div layout="row" layout-align="center center">
+                            <md-button class="md-raised md-primary" href="#/roster">Roster</md-button>
+                            <md-button class="md-raised md-primary" href="#/schedule">Schedule</md-button>
+                        </div>
+                    </md-card-content>
+                </md-card>
+            </div>
+            
+            <div class="row">
+                <md-card>
+                    <md-card-title>
+                        <md-card-title-text layout="row" layout-align="center center">
+                            <span class="md-headline">Games This Week</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-card-content>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Matchup</th>
+                                    <th>Date</th>
+                                </tr>
+                            </thead>
+                            <tbody ng-repeat="(key,value) in schedule">
+                                <tr ng-repeat="game in value.regularSeason" ng-show="$index > 3 && game.WK == 1 && game.OPPONENT.includes('@')">
+                                    <td style="padding: 3px">{{key}} {{game.OPPONENT}}</td>
+                                    <td style="padding: 3px">{{game.DATE}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </md-card-content>
+                </md-card>
+            </div>
+        </div>
+
     </div>
 
 </div>
