@@ -57,7 +57,7 @@
                                 </tr>
                             </thead>
                             <tbody ng-repeat="(key,value) in schedule">
-                                <tr ng-repeat="game in value.regularSeason" ng-show="$index > 3 && game.WK == 1 && game.OPPONENT.includes('@')">
+                                <tr ng-repeat="game in value.regularSeason" ng-show="$index > 3 && game.WK == 3 && game.OPPONENT.includes('@')">
                                     <td style="padding: 3px">{{key}} {{game.OPPONENT}}</td>
                                     <td style="padding: 3px">{{game.DATE}}</td>
                                 </tr>
