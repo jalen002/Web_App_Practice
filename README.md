@@ -19,9 +19,9 @@ I use a main service for application-wide data and my ajax calls.
     * Array filled with JSON objects
 2. Javascript libraries used:
     * jQuery
-    * AngularJS
-    * Bootstrap
-    * Angular Material
+    * AngularJS - For fast, seamless and dynamic web application
+    * Bootstrap - For fast and responsive mobile first web applications
+    * Angular Material - UI Component framework and a reference implementation of Google's Material Design Specification
 3. Followed MVC architecture
 4. Loading up teams, rosters and schedules data through ajax calls to ```.json``` files
 </body>
