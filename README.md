@@ -5,7 +5,7 @@
 <p>The user may also search all the players on all teams by clicking on the search link in the nav bar. That will take the user to a route where they may search by: Name, Number, Age, Position, Height, Weight, College, Experience. That will then search all the rosters on all the teams and return any players that meet the search criteria. </p>
 
 ## Demo
-<h5>To view live demo [click here](https://jalen002.github.io/Web_App_Practice)</h5>
+** To view live demo [click here](https://jalen002.github.io/Web_App_Practice) **
 <p>*Note: Does not load properly in Internet Explorer 8 and under</p>
 
 <br/>
