@@ -8,10 +8,10 @@ A controller has been made for each html view.
 I use a main service to pass around data needed in multiple controllers.
 
 
-Data structures used:
-..*JSON Array filled with JSON objects
-Javascript libraries used:
-..*jQuery
-..*AngularJS
-..*Bootstrap
-..*Angular Material
+1. Data structures used:
+    *JSON Array filled with JSON objects
+2. Javascript libraries used:
+    *jQuery
+    *AngularJS
+    *Bootstrap
+    *Angular Material
