@@ -6,6 +6,7 @@
 
 ## Demo
 **To view live demo [click here](https://jalen002.github.io/Web_App_Practice)**
+<p>*Note: Loading large .json files, please give it a few seconds to load</p>
 <p>*Note: Does not load properly in Internet Explorer 8 and under</p>
 
 <br/>
