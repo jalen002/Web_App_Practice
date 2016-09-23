@@ -5,7 +5,8 @@
 <p>The user may also search all the players on all teams by clicking on the search link in the nav bar. That will take the user to a route where they may search by: Name, Number, Age, Position, Height, Weight, College, Experience. That will then search all the rosters on all the teams and return any players that meet the search criteria. </p>
 
 ## Demo
-<h5>To view live demo [click here](jalen002.github.io/Web_App_Practice)</h5>
+**To view live demo [click here](https://jalen002.github.io/Web_App_Practice)**
+<p>*Note: Loading large .json files, please give it a few seconds to load</p>
 <p>*Note: Does not load properly in Internet Explorer 8 and under</p>
 
 <br/>
@@ -18,9 +19,9 @@ I use a main service for application-wide data and my ajax calls.
     * Array filled with JSON objects
 2. Javascript libraries used:
     * jQuery
-    * AngularJS
-    * Bootstrap
-    * Angular Material
+    * AngularJS - For fast, seamless and dynamic web application
+    * Bootstrap - For fast and responsive mobile first web applications
+    * Angular Material - UI Component framework and a reference implementation of Google's Material Design Specification
 3. Followed MVC architecture
 4. Loading up teams, rosters and schedules data through ajax calls to ```.json``` files
 </body>
