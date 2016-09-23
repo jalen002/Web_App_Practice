@@ -45,7 +45,7 @@
                 <md-card>
                     <md-card-title>
                         <md-card-title-text layout="row" layout-align="center center">
-                            <span class="md-headline">Games This Week</span>
+                            <span class="md-headline">Games This Week (Week {{currWeek}})</span>
                         </md-card-title-text>
                     </md-card-title>
                     <md-card-content>
@@ -57,7 +57,7 @@
                                 </tr>
                             </thead>
                             <tbody ng-repeat="(key,value) in schedule">
-                                <tr ng-repeat="game in value.regularSeason" ng-show="$index > 3 && game.WK == 3 && game.OPPONENT.includes('@')">
+                                <tr ng-repeat="game in value.regularSeason" ng-show="$index > 3 && game.WK == currWeek && game.OPPONENT.includes('@')">
                                     <td style="padding: 3px">{{key}} {{game.OPPONENT}}</td>
                                     <td style="padding: 3px">{{game.DATE}}</td>
                                 </tr>
