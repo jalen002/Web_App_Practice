@@ -57,7 +57,7 @@
                                 </tr>
                             </thead>
                             <tbody ng-repeat="(key,value) in schedule">
-                                <tr ng-repeat="game in value.regularSeason" ng-show="$index > 3 && game.WK == currWeek && game.OPPONENT.includes('@')">
+                                <tr ng-repeat="game in value.regularSeason" ng-if="(nflWeeks.length>21 ? $index>4:$index>3) && game.WK === thisWeek">
                                     <td style="padding: 3px">{{key}} {{game.OPPONENT}}</td>
                                     <td style="padding: 3px">{{game.DATE}}</td>
                                 </tr>

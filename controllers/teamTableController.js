@@ -40,72 +40,79 @@ myApp.controller('TeamTableController', ['$scope', 'mainService', function ($sco
         }
     }
 
-    $scope.calcWeek = function () {
+$scope.calcWeek = function () {
 
-        for (var i = 0; i < $scope.nflSchedule.length; i++) {
-            var weekData = $scope.nflSchedule[i];
-            var week = weekData["WK"];
-            var weekDate = weekData["DATE"];
-            var nflWeekDateObj;
+    for (var i = 0; i < $scope.nflWeeks.length; i++) {
+        var weekData = $scope.nflWeeks[i];
+        var week = weekData["WK"];
+        var weekDate = weekData["DATE"];
+        var nflWeekDateObj;
 
-            if (weekDate.toLowerCase() != 'bye week') {
-                var arr = weekDate.split(/[\s,]+/g);   //regular expression for white space and commas
-                var thisNflweekDay = arr[0];
-                var thisNflMonth = arr[1];
-                var thisNflDay = arr[2];
-                nflWeekDateObj = new Date(2016, $scope.months[thisNflMonth], thisNflDay);
-            } else {
-                weekData = $scope.nflSchedule[i - 1];
-                var week = weekData["WK"];
-                var weekDate = weekData["DATE"];
-                var arr = weekDate.split(/[\s,]+/g);
-                var thisNflweekDay = arr[0];
-                var thisNflMonth = arr[1];
-                var thisNflDay = arr[2];
-                nflWeekDateObj = new Date(2016, $scope.months[thisNflMonth], thisNflDay);
-                nflWeekDateObj.setDate(nflWeekDateObj.getDate() + 7);
-                week = parseInt(week) + 1;
-            }
+        var arr;
+        var thisNflweekDay;
+        var thisNflMonth;
+        var thisNflDay;
 
-            if ($scope.currDate.getMonth() === nflWeekDateObj.getMonth()) {
-                //In Same Month
-                if ($scope.currDate.getDate() - nflWeekDateObj.getDate() <= 0) {
-                    //Haven't played that game yet
-                    $scope.currWeek = week;
-                    break;
-                } else {
-                    // They have already played the game, but was it on Thurs?
-                    if ($scope.currDate.getDate() - nflWeekDateObj.getDate() <= 4 && nflWeekDateObj.getDay() === 4) {
-                        // It was on thurs! So, still that week if today is within 4 days
-                        $scope.currWeek = week;
-                        break;
-                    } else if (nflWeekDateObj.getDay() === 0 && $scope.currDate.getDate() - nflWeekDateObj.getDate() < 2) {
-                        // It was on sun! So, still that week if today is within 2 days
-                        $scope.currWeek = week;
-                        break;
-                    } else if (nflWeekDateObj.getDay() === 1 && $scope.currDate.getDate() - nflWeekDateObj.getDate() === 0) {
-                        // It was on mon! So, still that week if today is monday
-                        $scope.currWeek = week;
-                        break;
-                    }
-                }
-            } else {
-                if ($scope.currDate.getMonth() < nflWeekDateObj.getMonth()) {
-                    var weekAheadDate = new Date($scope.currDate.getFullYear(), $scope.currDate.getMonth(), $scope.currDate.getDate());
-                    weekAheadDate.setDate(weekAheadDate.getDate() + 7);
-
-                    //Game is played in the next month, so it obviously hasnt been played
-                    if (nflWeekDateObj.getTime() < weekAheadDate.getTime()) {
-                        // The game is in the NEXT month and less than a week away
-                        $scope.currWeek = week;
-                        break;
-                    }
-                }
-
-            }
+        if (weekDate.toLowerCase() != 'bye week') {
+            arr = weekDate.split(/[\s,]+/g);	// Split up the NFL week date string
+            thisNflweekDay = arr[0];					// The Day of the week that the game takes place
+            thisNflMonth = arr[1];						// The month the game takes place
+            thisNflDay = arr[2];							// The Date of the month the game takes place
+            nflWeekDateObj = new Date(2016, $scope.months[thisNflMonth], thisNflDay);
+        } else {
+            // Bye Week so take last weeks game and add a week to it, to simulate
+            // a game this week
+            weekData = $scope.nflWeeks[i - 1];
+            week = weekData["WK"];
+            weekDate = weekData["DATE"];
+            arr = weekDate.split(/[\s,]+/g);	// Split up the NFL week date string
+            thisNflweekDay = arr[0];					// The Day of the week that the game takes place
+            thisNflMonth = arr[1];						// The month the game takes place
+            thisNflDay = arr[2];							// The Date of the month the game takes place
+            nflWeekDateObj = new Date($scope.currDate.getFullYear(), $scope.months[thisNflMonth], thisNflDay); // Last weeks date
+            nflWeekDateObj.setDate(nflWeekDateObj.getDate() + 7); // Add a week to last week
+            week = (parseInt(week) + 1) + ""; // Take last weeks number and add one to it to get this week
         }
+        debugger;
 
-    } // End calcWeek()
-    $scope.calcWeek(); // Call the func on controller load
+        if ($scope.currDate.getMonth() === nflWeekDateObj.getMonth()) {
+            //In Same Month
+            if ($scope.currDate.getDate() - nflWeekDateObj.getDate() <= 0) {
+                //Haven't played that game yet
+                $scope.thisWeek = week;
+                break;
+            } else {
+                // They have already played the game, but was it on Thurs?
+                if ($scope.currDate.getDate() - nflWeekDateObj.getDate() <= 4 && nflWeekDateObj.getDay() === 4) {
+                    // It was on thurs! So, still that week if today is within 4 days
+                    $scope.thisWeek = week;
+                    break;
+                } else if (nflWeekDateObj.getDay() === 0 && $scope.currDate.getDate() - nflWeekDateObj.getDate() < 2) {
+                    // It was on sun! So, still that week if today is within 2 days
+                    $scope.thisWeek = week;
+                    break;
+                } else if (nflWeekDateObj.getDay() === 1 && $scope.currDate.getDate() - nflWeekDateObj.getDate() === 0) {
+                    // It was on mon! So, still that week if today is monday
+                    $scope.thisWeek = week;
+                    break;
+                }
+            }
+        } else {
+            if ($scope.currDate.getMonth() < nflWeekDateObj.getMonth()) {
+                var weekAheadDate = new Date($scope.currDate.getFullYear(), $scope.currDate.getMonth(), $scope.currDate.getDate());
+                weekAheadDate.setDate(weekAheadDate.getDate() + 7);
 
+                //Game is played in the next month, so it obviously hasnt been played
+                if (nflWeekDateObj.getTime() < weekAheadDate.getTime()) {
+                    // The game is in the NEXT month and less than a week away
+                    $scope.thisWeek = week;
+                    break;
+                }
+            }
+
+        }
+    }
+
+} // End calcWeek()
+    
 }]);
