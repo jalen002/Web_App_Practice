@@ -1,7 +1,7 @@
 myApp.controller('TeamTableController', ['$scope', 'mainService', function ($scope, mainService) {
 
     $scope.schedule = mainService.getSchedule();
-    $scope.nflSchedule = $scope.schedule ? $scope.schedule["Denver Broncos"].regularSeason : {};
+    $scope.nflSchedule = $scope.schedule["Denver Broncos"].regularSeason;
     $scope.teams = mainService.getTeams();
     $scope.currWeek = -1;
     $scope.currDate = new Date();
